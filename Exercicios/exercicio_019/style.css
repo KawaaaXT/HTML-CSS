@@ -1,0 +1,75 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metamorphous&family=Stardos+Stencil:wght@400;700&display=swap');
+body{
+    background-image: linear-gradient(to right, #348888, #22BABB, #9EF8EE, #FA7F08, #F24405);
+}
+main {
+    width: 700px;
+    padding: 20px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 4px 4px 0px rgb(250, 60, 60);
+    border-radius: 10px;
+    text-indent: 20px;
+    text-align: justify;
+}
+h1 {
+    font-family: "Metamorphous", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    background-color:#22BABB ;
+    border: 2px solid #21fefe;
+    color: #ffffff;
+}
+h1#principal{
+    background-color: #22BABB;
+    color: #ffffff
+}
+img{
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+h2{
+    font-family: "Aladin", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #22BABB;
+    color: #ffffff;
+    text-align: center;
+}
+p{
+    font-family: "Sofadi One", system-ui;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 16px;
+    text-align: justify;
+}
+.basico{
+  background-color: #F24405;
+  color: #ffffff;
+}
+.intermediario{
+  background-color: #FA7F08;
+  color: #ffffff;
+}
+.avancado{
+  background-color: #348888;
+  color: #ffffff;
+  font-weight: bold;
+}
+.aprendendo{
+    background-color: #348888;
+    color: #f1f3f3;
+}
+.midia{
+    display: flex;
+    margin: auto;
+    justify-content: flex-end;
+    width: 300px;
+    height: 200px;
+}

@@ -1,0 +1,51 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+body{
+    background-image: linear-gradient(to right, #4B444B, #736E66, #D9C5AC, #F2E1C2);
+
+}
+main{
+    width: 700px;
+    padding: 20px;
+    background-color: #ffffff;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    text-indent: 20px;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.697);
+}
+img{
+    display: block;
+    margin: auto;
+    width: 150px;
+}
+p{
+  font-family: "Merienda", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+div{
+    display: inline-block;
+    background-color: #ffffff7e;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    
+    border: 1px solid ;
+}
+div:hover{
+    color: yellow;
+    
+}
+.basico{
+    font-family: "Allerta Stencil", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 5px;
+    background-color: #736e66b5;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.685);
+}

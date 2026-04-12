@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hover</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div>p{
+            display: none;
+        }
+        div:hover>p{
+            display: block ;
+            color: rgb(254, 254, 254);
+            background-color: rgb(72, 163, 77);
+            width: 200px;
+        }
+        div:hover{
+            color: aqua;
+        }
+        a{
+            color: rgb(245, 80, 80);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover{
+            color: rgb(19, 18, 18);
+            text-decoration: underline;
+            
+        }
+        a:visited{
+            color: rgba(159, 65, 65, 0.538);
+        }
+        a:active{
+            color: chartreuse;
+        }
+        .especial{
+            background-color: rgba(159, 65, 65, 0.336); ;
+        }
+        .especial::before{
+            content: " ⇒ ";
+        }
+        .especial::after {
+            content: " ⇐  ";
+            color: rgba(0, 0, 0, 0.775);
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>PASSE O MOUSE AQUI EM BAIXO</h1>
+    <div>
+        Passe o mouse aqui 
+        <p>ISSO TA XTRANHO</p>
+    </div>
+    <br>
+    <ul>
+        <li>
+            <a href="https://color.adobe.com/pt/explore" class="especial" target="_blank"><abbr title="Photoshop,Illustrator,Premiere">ADOBE</abbr></a>
+        </li>
+        <li>
+            <a href="https://www.youtube.com/watch?v=vMlrcOVr7po" target="_blank"><abbr title="Você na TV">YOUTUBE</abbr></a>
+
+        </li>
+        <li>
+            <a href="https://fonts.google.com/selection/embed" target="_blank"><abbr title="FONTS">GOOGLE FONTS</abbr></a>
+        </li>
+    </ul>
+</body>
+</html>

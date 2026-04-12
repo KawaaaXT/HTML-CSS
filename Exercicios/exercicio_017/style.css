@@ -1,0 +1,28 @@
+@charset "UTF-8";
+       
+        body{
+        
+            background-image: linear-gradient(to right, #0FC2C0, #0CABA8, #008F8C);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 20px;
+            font-weight: 2em;
+        }
+        main{
+            width: 880px;
+            padding: 5;
+            background-color: rgb(252, 252, 252);
+            margin: auto;
+            box-shadow: 5px 5px 5px black;
+            border-radius: 20px;
+            font-family: 'Times New Roman', Times, serif
+        }
+        h1 {
+            text-align: center;
+            text-shadow: 1px 1px 0px black;
+            color: #008F8C;
+        }
+        h2 {
+            text-align: center;
+            text-shadow: 1px 1px 0px black;
+            color: #008F8C;
+        } 

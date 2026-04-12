@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="apple-touch-icon.png" type="FavIcon">
+    <style>
+        mark{
+            background-color: beige;
+        }
+       @keyframes aparecer {
+         from {
+        opacity: 0;
+     }
+         to {
+        opacity: 2;
+    }
+}
+
+img.animar {
+    animation: aparecer 2s ease-in;
+}
+    </style>
+    <title>IMAGENS DINÂMICAS</title>
+</head>
+<body>
+   <h1><mark><ins>IMAGENS DINÂMICAS</ins></mark></h1> 
+   <hr>
+   <p>Tente Abrir Essas Imagens Em Varios Dispositivos </p>
+   <picture>
+     <source media="(max-width: 750px)" srcset="imagens/imagen300.png" type="image/png"> <!--Jeito Correto-->
+     <source media="(max-width: 1050px )" srcset="imagens/imagenmedia700.png" type="image/png"> <!--Jeito Correto-->
+     <img class="animar" src="imagens/imagenGrande1000.png" alt="Imagem Flexivel"> <!--Jeito Correto-->
+   </picture>
+   <hr>
+   <h1><mark><ins>REPRODUZINDO AUDIO</ins></mark></h1>
+   <p>Vamos Colocar Um Audio Neste Site</p>
+  <audio src="midia/anosluzmatue.mp3.mp3" controls></audio> <!--MP3-->
+  <hr>
+  <h1><mark><ins>REPRODUZINDO OUTRO AUDIO COM DIFERENTES TAG</ins></mark></h1>
+  <audio preload="metadata" controls>
+     <source src="midia/sanguessuga.mp3.mp3" type="audio/mpeg">  <!--MP3-->
+     <source src="midia/sanguessuga.mp3.ogg" type="audio/ogg">  <!--OGG-->
+     <source src="midia/sanguessuga.mp3.wav" type="audio/wav"> <!--WAV NAO RECONMENDADO-->
+  </audio>
+</body>
+</html>
