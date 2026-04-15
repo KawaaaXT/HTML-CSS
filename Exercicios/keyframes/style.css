@@ -4,9 +4,29 @@
     --cor01: #B2BEBF;
     --cor02: #47cfc4; 
 }
+*{
+    margin: 0%;
+    padding: 0%;
+}
 
 body{
     background-image: linear-gradient(to right, var(--cor00), var(--cor01), var(--cor02) );
+}
+body > h1{
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: auto;
+    background-image: linear-gradient(to right, var(--cor01), var(--cor02));
+    text-align: center;
+    animation:  crescer 2s infinite alternate;
+}
+@keyframes crescer {
+    from{ transform: scale(1);
+    }
+    to{
+        transform: scale(1.5);
+    }
 }
 div.key> p {
     background-color: rgba(59, 144, 75, 0.59);
