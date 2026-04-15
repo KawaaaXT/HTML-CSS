@@ -13,12 +13,13 @@ body{
     background-image: linear-gradient(to right, var(--cor00), var(--cor01), var(--cor02) );
 }
 body > h1{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 250px;
     display: block;
     margin: auto;
+    margin-top: 80px;
     background-image: linear-gradient(to right, var(--cor01), var(--cor02));
-    text-align: center;
+    text-align: left;
     animation:  crescer 2s infinite alternate;
 }
 @keyframes crescer {
