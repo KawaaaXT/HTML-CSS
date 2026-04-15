@@ -1,0 +1,23 @@
+@charset "UTF-8";
+:root{
+    --cor00: #889C9B;
+    --cor01: #B2BEBF;
+    --cor02: #47cfc4; 
+}
+
+body{
+    background-image: linear-gradient(to right, var(--cor00), var(--cor01), var(--cor02) );
+}
+div.key> p {
+    background-color: rgba(59, 144, 75, 0.59);
+    text-align: center;
+    animation: entrar 2s ease-out;
+}
+@keyframes entrar{
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
