@@ -4,10 +4,7 @@
     --cor01: #B2BEBF;
     --cor02: #47cfc4; 
 }
-*{
-    margin: 0%;
-    padding: 0%;
-}
+
 
 body{
     background-image: linear-gradient(to right, var(--cor00), var(--cor01), var(--cor02) );
@@ -15,11 +12,13 @@ body{
 body > h1{
     width: 200px;
     height: 250px;
-    display: block;
-    margin: auto;
-    margin-top: 80px;
+    display: flex;
+    justify-content: right;
+    margin-left: auto;
+    margin-right: 60px;
+    margin-top: 50px;
     background-image: linear-gradient(to right, var(--cor01), var(--cor02));
-    text-align: left;
+    text-align: right;
     animation:  crescer 2s infinite alternate;
 }
 @keyframes crescer {
