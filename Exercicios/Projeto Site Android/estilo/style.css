@@ -236,7 +236,7 @@ main p{
 }
 main img {
     width: 100%;
-    animation: entrar 2s ease-out;
+    animation: entrar 2s forwards;
 }
 main img.bug{
     max-width: 350px;
@@ -247,14 +247,14 @@ main img.droids{
     width: 80%;
     display: block;
     margin: auto;
-    animation: entrar 2s ease-out;
+    animation: entrar 2s forwards;
 }
 main img.blok{
     width: 80%;
     display: block;
     margin: auto;
     margin-top: 20px;
-    animation: entrar 2s ease-out;
+    animation: entrar 2s forwards;
 }
 aside:hover{
     animation: tremer 0.2s infinite;
@@ -298,7 +298,7 @@ aside > ul{
     list-style-type: "\1F5F8";
     border-radius: 10px;
     columns: 2;
-    animation: entrar 2s ease-out;
+    animation: entrar 2s forwards;
 }
 aside > h3{
     background-color: #007566;
@@ -308,7 +308,7 @@ aside > h3{
     box-shadow: 0px 0px 7px var(--cor03);
     text-align: left;
     font-family: var(--font-android);
-    animation: entrar 2s ease-out;
+    animation: entrar 2s forwards;
 }
 @media (max-width: 600px) {
     nav div {
@@ -319,6 +319,10 @@ aside > h3{
     nav a {
         width: 100%;
         justify-content: center;
+    }
+    aside:active{
+        transform: scale(0.98);
+        transition: 0.1s;
     }
 }
 
