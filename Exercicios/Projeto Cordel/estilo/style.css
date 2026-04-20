@@ -20,13 +20,12 @@ header{
     outline: 4px solid var(--cor001);
     animation: entrar 2s ease-out;
 }
-header span > img.chapeu{
+header img.chapeu{
     position: absolute;
     top: -41px;
     left: 50%;
     transform: translateX(-50%);
-    width: 100%;
-    max-width: 400px;
+    width: 80px;
     animation: balanco 2s infinite ease-in-out;
     transform-origin: center bottom;
 }
@@ -111,8 +110,7 @@ div.sanfona{
     gap: 0;
 }
 div.sanfona img{
-    width: 100%;
-    max-width: 400px;
+    width: 120px;
     display: block;
     animation: abrir 1s infinite alternate ease-in-out;
     transform-origin: right;
@@ -149,7 +147,7 @@ section > p.color{
         transform: scaleX(1);
     }
     to{
-        transform: scaleX(1.5);
+        transform: scaleX(1.2);
     }
 }
 @keyframes entrar {
@@ -164,7 +162,7 @@ header h1{
     text-align: center;
     color: white;
     font-family: "Cordel";
-    font-size: 4em;
+    font-size: 3em;
     text-shadow: 0px 0px 8px #402718;
     padding: 20px;
 }
