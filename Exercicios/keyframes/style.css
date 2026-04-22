@@ -52,7 +52,47 @@ div img{
     width: 250px;
     transition: 0.3s;
 }
-
+main{
+    background-color: white;
+    width: 650px;
+    height: 650px;
+    max-width: 750px;
+    margin: auto;
+    
+}
+section img.boneco{
+    width:100px; 
+    top: 0%;
+    left: -200px;
+    transform: translate(-50%, -50%) scale(0.5) ;
+    animation: entradatchau 3s ease forwards;
+}
+@keyframes entradatchau{
+    0% {
+       transform: translateX(0) rotate(0deg);
+       opacity: 0;
+    }
+    25%{
+       transform: translateX(250px) rotate(0deg);
+       opacity: 1;
+    }
+    45%{
+        transform:  translateX(250px) rotate(15deg);
+    }
+    55%{
+        transform: translateX(250px) rotate(-15deg);
+    }
+    65%{
+        transform: translateX(250px) rotate(15deg);
+    }
+    75%{
+        transform: translateX(250px) rotate(0deg);
+    }
+    100%{
+        transform: translateX(250px);
+        opacity: 0;
+    }
+}
 @keyframes tremer {
     0% {
         transform: translate(1px, 1px);

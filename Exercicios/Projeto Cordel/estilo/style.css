@@ -20,6 +20,39 @@ header{
     outline: 4px solid var(--cor001);
     animation: entrar 2s ease-out;
 }
+header img.boneco{
+    width: 100px;
+    top: 0%;
+    left: -200px;
+    animation: entradatchau 2s ease forwards;
+}
+@keyframes entradatchau {
+    0%{
+        transform: translateX(0) rotate(0deg);
+        opacity: 0;
+    }
+    25%{
+        transform: translateX(25px) rotate(0deg);
+        opacity: 1;
+    }
+    45%{
+        transform: translateX(25px) rotate(15deg);
+    }
+    55%{
+        transform: translateX(25px) rotate(-15deg);
+    }
+    65%{
+        transform: translateX(25px) rotate(15deg);
+    }
+    75%{
+        transform: translateX(25px) rotate(0deg);
+    }
+    100%{
+        transform: translateX(25px);
+        opacity: 1;
+    }
+
+}
 header img.chapeu{
     position: absolute;
     top: -41px;
