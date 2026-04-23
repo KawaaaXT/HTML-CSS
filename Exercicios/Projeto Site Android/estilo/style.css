@@ -66,6 +66,7 @@ main{
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
+    margin-top: clamp(8px, 2vw, 16px);
     margin-bottom: clamp(20px, 6vw, 60px);
     padding: clamp(10px, 5vw, 10px);
     background-color: #ffffff;
