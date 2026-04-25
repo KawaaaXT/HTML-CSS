@@ -83,7 +83,7 @@ footer{
     background-color: var(--cor00);
     color: #ffffff;
     border-radius: 4px;
-    padding: clamp(10px, 5vw, 10px);
+    padding: clamp(10px, 5vw, 6px);
     box-shadow: ;
     text-align: center;
     font-family: var(--font-android);
@@ -302,6 +302,9 @@ aside > ul{
     border-radius: 10px;
     columns: 2;
     animation: entrar 2s forwards;
+}
+aside ul > li > abbr{
+    text-decoration: none;
 }
 aside > h3{
     background-color: #007566;
