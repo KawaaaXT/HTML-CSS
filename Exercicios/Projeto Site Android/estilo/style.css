@@ -285,7 +285,6 @@ aside {
     padding: clamp(10px, 5vw, 10px);
     color: #ffffff;
     text-align: justify;
-    text-indent: 20px;
     box-shadow: 2px 2px 6px var(--cor00);
     animation: entrar 2s forwards;
 }
@@ -305,6 +304,7 @@ aside > ul{
 }
 aside ul > li > abbr{
     text-decoration: none;
+    text-indent: 15px;
 }
 aside > h3{
     background-color: #007566;

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            
+        }
+        table{
+            font-family: Arial, Helvetica, sans-serif;
+            width: 100%;
+            max-width: 300px;
+            margin: 55px auto;
+            border-collapse: collapse;
+            border: 1px solid black;
+        }
+        h1{
+            margin: 55px auto;
+            border: 3px dashed rgba(0, 0, 0, 0.759);
+            color: gray;
+            width: 450px;
+            text-indent: 35px;
+            white-space: nowrap;
+            letter-spacing: 0.7px;
+        }
+        caption{
+            background-color: gray;
+            color: white;
+            font-weight: bolder;
+            font-size: 1.5em;
+        }
+        tr, th, td{
+            border: 1px solid black;
+            padding: 20px;
+        }
+        td{
+            white-space: nowrap;
+            font-weight: bold;
+        }
+        colgroup > col.cGroup{
+            background-color: rgba(39, 181, 181, 0.784);
+        }
+    </style>
+</head>
+<body>
+    <h1>EXERCICIO DE TABELA</h1>
+    <table>
+        <thead>
+            <colgroup>
+                <col class="cGroup" span="4">
+            </colgroup>
+            <caption>Cadastro</caption>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>Ana Maria</td>
+            <td>Feminino</td>
+            <td>32</td>
+            <td>Médica</td>
+        </tr>
+        <tr>
+            <td>Kauã</td>
+            <td>Masculino</td>
+            <td>20</td>
+            <td>Elétricista</td>
+        </tr>
+        <tr>
+            <td>Leandro</td>
+            <td>Masculino</td>
+            <td>26</td>
+            <td>Tecnico</td>
+        </tr>
+        <tr>
+            <td>Luana</td>
+            <td>Feminino</td>
+            <td>22</td>
+            <td>Logistica</td>
+        </tr>
+        <tr>
+            <td>Gabriela</td>
+            <td>Feminino</td>
+            <td>19</td>
+            <td>Desempregada</td>
+        </tr>
+        <tr>
+            <td>Maria Gabriela</td>
+            <td>Feminino</td>
+            <td>34</td>
+            <td>Advogada</td>
+        </tr>
+    </table>
+</body>
+</html>
