@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Aula 08</title>
+</head>
+<body>
+    <h1>Teste De Formulario</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="inumber">Numero 01</label>
+            <input type="number" name="number" id="inumber" min="0" max="10" required oninput="isoma.innerHTML = Number(inumber.value) + Number(inum.value)">
+        </p>
+        <p>
+            <label for="inum">Numero 02</label>
+            <input type="number" name="numero" id="inum" min="0" max="10" required oninput="isoma.innerHTML = Number(inumber.value) + Number(inum.value)">
+        </p>
+        <p>
+            <label for="isoma">Soma:</label>
+            <output id="isoma">0</output>
+        </p>
+
+
+
+
+
+        <p>
+            <input type="submit" value="ENVIAR">
+            <input type="reset" value="LIMPAR">
+        </p>
+
+
+
+
+    </form>
+    
+</body>
+</html>
