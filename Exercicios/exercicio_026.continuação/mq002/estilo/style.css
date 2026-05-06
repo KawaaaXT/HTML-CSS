@@ -1,2 +1,22 @@
 @charset "UTF-8";
 /* Configurações Gerais*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(6, 34, 214);
+    background-size: contain;
+   background-repeat: no-repeat;
+}
+h1{
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 0px 0px 9px rgba(3, 184, 172, 0.741);
+    text-indent: 30px;
+}
