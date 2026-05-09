@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estylo/style.css" media="all">
+     <link rel="stylesheet" href="estylo/mediaquery.css">
     <title>Media Query</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+   
 </head>
 <body>
     
 </body>
 </html>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>MEU SITE</h1>
         <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
@@ -66,12 +68,29 @@
 
     </main>
     <script>
+        function mudouTamanho(){
+            if (window.innerWidth >= 768){
+                mnburguer.style.display = 'block'
+            }
+            else{
+                mnburguer.style.display = 'none'
+        }
+    }
+
+
+
         function clickMenu(){
+           if (mnburguer.style.display == 'block'){
+               mnburguer.style.display = 'none'
+           }
+
+          else { 
             mnburguer.style.display = 'block'
 
         }
-
+    }
     </script>
+   
 
 </body>
 </html>
