@@ -109,7 +109,14 @@
     </footer>
     <script>
         function clickMenu(){
-            mnburg.style.display = 'block'
+            if (mnburg.style.display == 'block') {
+                mnburg.style.display = 'none'
+
+            } 
+            else {
+                mnburg.style.display = 'block'
+
+            }
 
         }
     </script>
