@@ -15,8 +15,9 @@ div.container{
     flex-flow: row wrap;
     background-color: aqua;
     height: 450px;
-    align-content: space-around;
+    align-content: space-between ;
 }
+
 div.filho{
     background-color: beige;
     margin-top: 30px;

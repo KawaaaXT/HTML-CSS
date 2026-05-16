@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anatomia dos intens FlexBox</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body, html {
+            width: 100%;~
+            height: 100%;
+        }
+        body{
+            background-color: darkgray ;
+        }
+        main{
+            width: 90vw;
+            height: 90vh;
+            background-color: white;
+        }
+        div.container{
+            display: flex;
+            flex-flow: row wrap;
+            height: 500px;
+            justify-content: flex-start;
+            align-items: flex-start;
+            background-color: rgba(222, 184, 135, 0.451);
+        }
+        section.item2{
+            background-color: aqua;
+            padding: 10px;
+            align-self: center;
+
+        }
+        section.item3{
+            background-color: rgb(0, 49, 49);
+            padding: 20px;
+            color: white ;
+            font-size: 1.2em;
+            align-self: stretch;
+            
+        }
+        section.item01{
+            background-color: rgba(0, 255, 98, 0.617);
+            padding: 10px;
+            color: white;
+            font-size: 1.5em;
+            font-weight: bolder;
+            align-self: flex-end;
+            text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.492);
+        }
+        section.item4{
+            background-color: cyan;
+            padding: 20px;
+            font-size: 1.3em;
+            font-weight: bold;
+            color: red;
+            align-self: flex-end;
+        }
+
+
+    </style>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <section class="item01">
+                Exemplo (1)
+            </section>
+            <section class="item2">
+                Exemplo 2
+
+            </section>
+            <section class="item3">
+                Exemplo 3
+
+            </section>
+            <section class="item4">
+                Exemplo 4
+
+
+            </section>
+
+
+        </div>
+    </main>
+    
+</body>
+</html>
