@@ -1,10 +1,39 @@
 @charset "UTF-8";
 
 @media screen and (max-width: 767px){
-    
+    header, header > nav {
+        flex-flow: column nowrap;
+    }
+     header > h1 {
+        text-align: center;
+        flex-basis: 40px;
+        font-size: 1.5em;
+    }
+    nav > a {
+        margin-top: 10px;
+        text-align: center;
+    }
+    main{
+        width: 90vw;
+        height: 90vh;
+    }
+    h2{
+        text-align: center;
+        letter-spacing: 3px;
+        background-color: gray;
+        width: 85vw;
+        border-radius: 3px;
+        border: 1px solid black;
+        color: white;
+        margin-bottom: 10px;
+    }
+}
+
+
+   
    
     
-}
+
    
 
     
