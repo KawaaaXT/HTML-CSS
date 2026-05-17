@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Grow e Flex-Shrink</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    body,html {
+        width: 100%;
+        height: 100%;
+    }
+    body{
+        background-color: aqua;
+    }
+    main{
+        background-color: white;
+        box-shadow: 0px 0px 9px black;
+    }
+    div#container{
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        background-color: gray;
+
+
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-flow: row nowrap;
+    }
+    section.filho{
+        order: -1;
+        background-color: rgb(3, 109, 104);
+        padding: 20px;
+        color: white;
+        flex: 1 1 auto;
+    }
+    section.filho2{
+        order: 9;
+        background-color: rgb(214, 214, 5);
+        padding: 20px;
+        color: rgb(21, 0, 0);
+        flex: 0 0 150px;
+    }
+    section.filho3{
+        order: -3;
+        background-color: brown;
+        padding: 20px;
+        color: white;
+        flex: 1 2 auto;
+    }
+    section.filho4{
+        order: -4;
+        background-color: blueviolet;
+        padding: 20px;
+        color: white;
+        font-weight: bolder;
+        flex: 2 1 150px;
+    }
+</style>
+<body>
+    <main>
+        <div id="container">
+            <section class="filho">
+                 A
+              
+              
+
+            </section>
+            <section class="filho2">
+                 B
+               
+
+            </section>
+            <section class="filho3">
+                C
+                
+            </section>
+            <section class="filho4">
+                D
+                
+
+            </section>
+        </div>
+    </main>
+    
+</body>
+</html>
