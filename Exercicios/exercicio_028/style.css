@@ -11,3 +11,23 @@ body,html{
     width: 100vw;
     height: 100vh;
 }
+.content{
+    border: 3px dashed blue;
+    box-shadow: 2px 3px 3px black;
+    height: 600px;
+
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    gap: 4px;
+    align-content: space-between;
+    justify-content: space-between;
+}
+.item{
+    border: 2px solid green;
+    padding: 3px;
+  
+    background-color: rgba(128, 128, 128, 0.61);
+    color: black;
+    font-weight: bolder;
+    font-size: 2em;
+}
