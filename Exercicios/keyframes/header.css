@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: red;
+    padding: 10px;
+    border: 2px dashed black;
+
+}
+.h1-header{
+    color: white;
+    text-shadow: 1px 1px 9px black;
+    letter-spacing: 3px;
+}
